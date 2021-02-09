@@ -39,23 +39,25 @@ document.getElementById("search-btn").addEventListener("click", function () {
                                 evolu.textContent = evopokemon.evolves_from_species.name;
                                 let innerEvol = evopokemon.evolves_from_species.name;
 
+                                
                                 function internImage() {
-                                    function internImage() {
-                                        fetch(`https://pokeapi.co/api/v2/pokemon/${innerEvol}`)
-                                            .then(response => response.json())
-                                            .then(response => {
-                                                console.log(response);
-                                                prevEvolutionimg.setAttribute("src", response.sprites.front_default);
-                                            })
-                                    }
-                                    internImage()
+                                    fetch(`https://pokeapi.co/api/v2/pokemon/${innerEvol}`)
+                                        .then(response => response.json())
+                                        .then(response => {
+                                            console.log(response);
+                                            prevEvolutionimg.setAttribute("src", response.sprites.front_default);
+                                        })
                                 }
+
+                                internImage()
+
                             } else {
                                 evolu.textContent = 'no previous evolution';
                                 prevEvolutionimg.setAttribute("src", response.sprites.front_default);
                             }
                         });
                 }
+
                 fetchevolutionPokemon();
 
             });
