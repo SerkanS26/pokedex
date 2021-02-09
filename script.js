@@ -30,7 +30,7 @@ document.getElementById("search-btn").addEventListener("click", function () {
                 pokeMovesWindow.textContent = fourMoves;
 
                 function fetchevolutionPokemon(evopokemon) {
-                    fetch(`https:pokeapi.co/api/v2/pokemon-species/${userInput}`)
+                    fetch(`https://pokeapi.co/api/v2/pokemon-species/${userInput}`)
                         .then(response => response.json())
                         .then(evopokemon => {
                             console.log(evopokemon)
