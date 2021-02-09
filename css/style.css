@@ -279,13 +279,24 @@ input {
     height: 100%;
     width: 80%;
     justify-self: center;
+    justify-content: center;
     background-color: var(--main-screen-bg-color);
     border: solid black 2px;
     border-radius: 5%;
-    background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    /*background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+}
+
+.poke-front-image, .poke-back-image{
+    height: 110px;
+    width: 110px;
+}
+.screen__image {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .bottom-screen-lights {
