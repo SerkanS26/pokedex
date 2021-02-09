@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://oscarpete.github.io/rock-paper-scissors-lizard-spock-game/">
+  <a href="https://github.com/SerkanS26/pokedex/">
     <img src="https://image.winudf.com/v2/image/bmV0LmFudGFmdW5ueS5wb2tlbW9uZ28uZ3VpZGUuZXhwZXJ0X2ljb25fMTUwNjAyMjk4NF8wOTc/icon.png?w=170&fakeurl=1" alt="Logo" width="64" height="64">
   </a>
 
@@ -55,7 +55,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://oscarpete.github.io/rock-paper-scissors-lizard-spock-game/)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/SerkanS26/pokedex)
 
 You might be thinking, oh no another Pokedex!, but you will be wrong, this version is made in a way you can see the previous evolution of each pokemon (id or name) the user type in the field, is that amazing or what?
 
