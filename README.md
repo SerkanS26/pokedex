@@ -10,7 +10,7 @@
   <p align="center">
     An awesome way to learn to code!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SerkanS26/pokedex"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://serkans26.github.io/pokedex/">View Demo</a>
