@@ -385,7 +385,7 @@ input {
 
 .upper-buttons-container {
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: start;
 }
 
