@@ -36,8 +36,8 @@ document.getElementById("search-btn").addEventListener("click", function () {
                             console.log(evopokemon)
 
                             if (evopokemon.evolves_from_species !== null) {
-                                evolu.textContent = evopokemon.evolves_from_species.name;
                                 let innerEvol = evopokemon.evolves_from_species.name;
+                                evolu.textContent = innerEvol;
 
                                 
                                 function internImage() {
@@ -53,7 +53,7 @@ document.getElementById("search-btn").addEventListener("click", function () {
 
                             } else {
                                 evolu.textContent = 'no previous evolution';
-                                prevEvolutionimg.setAttribute("src", response.sprites.front_default);
+                                prevEvolutionimg.setAttribute("src", "");
                             }
                         });
                 }
