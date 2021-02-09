@@ -15,9 +15,9 @@
     <br />
     <a href="https://serkans26.github.io/pokedex/">View Demo</a>
     ·
-    <a href="https://github.com/oscarpete/rock-paper-scissors-lizard-spock-game/issues">Report Bug</a>
+    <a href="https://github.com/SerkanS26/pokedex/issues">Report Bug</a>
     ·
-    <a href="https://github.com/oscarpete/rock-paper-scissors-lizard-spock-game/issues">Request Feature</a>
+    <a href="https://github.com/SerkanS26/pokedex/issues">Request Feature</a>
   </p>
 </p>
 
