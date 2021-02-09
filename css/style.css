@@ -360,6 +360,11 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* here is add the name screen css*/
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 8.5px;
+    overflow-wrap: break-word;
 }
 
 #name-screen {
@@ -369,6 +374,7 @@ input {
     font-size: 8.5px;
     overflow-wrap: break-word;
 }
+
 
 .circle {
     width: 4px;
@@ -589,6 +595,8 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 55px;
+    height: 55px;
 }
 
 .white-square {
@@ -643,8 +651,8 @@ input {
 }
 
 .bottom-screens-container .right-panel-screen {
-    width: 84px;
-    height: 25px;
+    width: 87px;
+    height: 32px;
 }
 
 .mention {
